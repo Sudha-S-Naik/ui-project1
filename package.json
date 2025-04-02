@@ -3,7 +3,8 @@
     "version": "1.0.4",
     "description": "",
     "scripts": {
-        "build": "tailwindcss build -i src/styles.css -o build/assets/css/soft-ui-dashboard-tailwind.css --watch"
+    "build": "npx tailwindcss -i src/styles.css -o build/assets/css/soft-ui-dashboard-tailwind.css"
+
     },
     "devDependencies": {
         "autoprefixer": "^10.4.2",
